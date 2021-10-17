@@ -10,30 +10,46 @@
 .title1{
     list-style-type: upper-roman;
     padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0;
 }
 
 .title2{
     list-style-type: decimal;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .title3{
     list-style-type: lower-alpha;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .title4{
     list-style-type: circle;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
+.title5{
+    padding-left: 10px
+}
 .content{
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-size: small;
+}
+
+.title{
+    font-weight: bold;
+}
+
 
 @media only screen and (min-width: 575px) {
+    body {
+        font-size: large;
+    }
     .main-content{
         max-width: 1200px;
         box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
@@ -54,6 +70,30 @@
     .content{
         margin: 0;
         padding: 0;
+    }
+    .title1{
+        list-style-type: upper-roman;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .title2{
+        list-style-type: decimal;
+        padding-left: 20px;
+    }
+    
+    .title3{
+        list-style-type: lower-alpha;
+        padding-left: 20px;
+    }
+    
+    .title4{
+        list-style-type: circle;
+        padding-left: 20px;
+    }
+    
+    .title5{
+        padding-left: 20px
     }
 }
 
@@ -106,3 +146,12 @@ h1{
     }
 }
 
+@media only screen and (min-width: 769px) {
+    
+}
+
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18x;
+    }
+}
