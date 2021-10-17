@@ -5,9 +5,9 @@
     padding: 10px 10px 10px 10px;
     text-align: justify;
     min-height: calc(100vh - 312px);
-  }
+}
 
-.component{
+.component {
     display: block;
 }
 
@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-.item{
+.item {
     text-align: center;
     display: block;
     padding: 10px;
@@ -24,23 +24,32 @@ a {
     background-color: #fff;
 }
 
-.item:hover{
+.item:hover {
     background-color: #007bff;
 }
 
-@media only screen and (min-width: 575px) {
-    .component{
+.img-responsive {
+    display: none;
+}
+
+@media only screen and (min-width: 426px) {
+    .component {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 50% 50%;
     }
-    .main-content{
+    .main-content {
         max-width: 1200px;
         box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
         background-color: #fff;
         margin: auto;
         min-height: calc(100vh - 235px);
         padding-top: 10px;
-      }
-    
+    }
+    .img-responsive {
+        display: block;
+    }
+    img {
+        width: 100%;
+    }
 }
