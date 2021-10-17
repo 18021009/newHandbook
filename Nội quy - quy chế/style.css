@@ -5,6 +5,16 @@
     padding: 10px 10px 10px 10px;
     text-align: justify;
     min-height: calc(100vh - 312px);
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.left_column{
+    padding: 0 10px 0 0;
+}
+
+img{
+    width: 100%;
 }
 
 h2{
@@ -38,6 +48,19 @@ a{
     .content{
         margin: 0;
         padding: 0;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .main-content {
+        box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+        background-color: #fff;
+        margin: auto;
+        padding: 10px 10px 10px 10px;
+        text-align: justify;
+        min-height: calc(100vh - 312px);
+        display: grid;
+        grid-template-columns: 30% 70% ;
     }
 }
 
