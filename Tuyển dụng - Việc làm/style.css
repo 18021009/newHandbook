@@ -5,11 +5,22 @@
     padding: 10px 10px 10px 10px;
     text-align: justify;
     min-height: calc(100vh - 312px);
+    display: grid;
+    grid-template-columns: 40% 60%;
   }
 
 h2{
     color: rgb(39, 39, 201);
     font-size: 20px;
+}
+
+.left{
+  text-align: align;
+  padding: 0 10px 0 0;
+}
+
+img{
+  width: 100%;
 }
 
 @media only screen and (min-width: 575px) {
@@ -20,6 +31,8 @@ h2{
         margin: auto;
         min-height: calc(100vh - 235px);
         padding-top: 10px;
+        display: grid;
+        grid-template-columns: 40% 60%;
       }
 }
 
