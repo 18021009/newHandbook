@@ -43,7 +43,7 @@ a{
         margin: auto;
         min-height: calc(100vh - 235px);
         padding-top: 10px;
-        grid-template-columns: auto auto ;
+        grid-template-columns: 40% 60% ;
     }
 
     .content{
@@ -61,7 +61,7 @@ a{
         text-align: justify;
         min-height: calc(100vh - 312px);
         display: grid;
-        grid-template-columns: auto auto ;
+        grid-template-columns: 30% 70% ;
     }
 }
 

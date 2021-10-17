@@ -10,6 +10,11 @@
 .loai-hoc-bong{
     list-style-type: decimal;
     padding-left: 10px;
+    margin-top: 0;
+}
+
+.title{
+    font-weight: bold;
 }
 
 .tinh-chat-hoc-bong{
