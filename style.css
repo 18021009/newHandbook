@@ -18,6 +18,10 @@ a{
     text-align: center;
 }
 
+.section{
+    display: none;
+}
+
 
 @media only screen and (min-width: 426px) {
     .component{
@@ -49,12 +53,9 @@ a{
     }
 
     .section{
-        background-image: url('../images/home.jpg');
-        position: relative;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         height: 300px;
+        width: 100%;
+        display:block;
     }
     .page-header{
         font-size: 90px;
@@ -67,11 +68,12 @@ a{
 }
 @media only screen and (min-width: 769px) {
     .section{
-        background-image: url('../images/home.jpg');
-        position: relative;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         height: 500px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .section{
+        height: 680px;
     }
 }
