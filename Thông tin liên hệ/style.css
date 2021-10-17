@@ -1,0 +1,32 @@
+.main-content {
+    box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+    background-color: #fff;
+    margin: auto;
+    padding: auto;
+}
+
+.info-title {
+    font-family: Opensans-bold;
+  }
+  .info-content {
+    padding-left: 50px;
+  }
+  .info-contact {
+    color: #005095;
+  }
+  .home-body.body-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+
+
+@media only screen and (min-width: 575px) {
+    .main-content{
+        max-width: 1200px;
+        box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+        background-color: #fff;
+        margin: auto;
+    }
+}
+

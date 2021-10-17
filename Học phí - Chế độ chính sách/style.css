@@ -1,0 +1,108 @@
+.main-content {
+    box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+    background-color: #fff;
+    margin: auto;
+    padding: 10px 10px 10px 0;
+    text-align: justify;
+    min-height: calc(100vh - 312px);
+  }
+
+.title1{
+    list-style-type: upper-roman;
+    padding-left: 10px;
+}
+
+.title2{
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.title3{
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+}
+
+.title4{
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.content{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (min-width: 575px) {
+    .main-content{
+        max-width: 1200px;
+        box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+        background-color: #fff;
+        margin: auto;
+        min-height: calc(100vh - 235px);
+        padding-top: 10px;
+      }
+    h1{
+        color: #136292;
+        font-size: 45px;
+        font-weight: 400;
+        font-family: "San Francisco Display";
+        text-align: justify;
+        margin-top: 0;
+    }
+
+    .content{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.main-content {
+    box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+    background-color: #fff;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    min-height: calc(100vh - 312px);
+  }
+
+h1{
+    color: #136292;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "San Francisco Display";
+    text-align: justify;
+    margin: 10px 0 0 0;
+
+}
+
+.content{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (min-width: 575px) {
+    .main-content{
+        max-width: 1200px;
+        box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+        background-color: #fff;
+        margin: auto;
+        min-height: calc(100vh - 235px);
+        padding-top: 10px;
+      }
+    h1{
+        color: #136292;
+        font-size: 45px;
+        font-weight: 400;
+        font-family: "San Francisco Display";
+        text-align: justify;
+        margin-top: 0;
+    }
+
+    .content{
+        margin: 0;
+        padding: 0;
+    }
+}
+

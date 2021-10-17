@@ -1,0 +1,24 @@
+.main-content {
+    box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+    background-color: #fff;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    min-height: calc(100vh - 312px);
+  }
+
+@media only screen and (min-width: 575px) {
+    .main-content{
+        max-width: 1200px;
+        box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+        background-color: #fff;
+        margin: auto;
+        min-height: calc(100vh - 235px);
+        padding-top: 10px;
+    }
+
+    .content{
+        font-size: 17px;
+    }
+}
+

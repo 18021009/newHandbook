@@ -1,0 +1,77 @@
+.main-content {
+    box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+    background-color: #fff;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    min-height: calc(100vh - 312px);
+}
+
+a{
+    text-decoration: none;
+}
+
+.page-header{
+    text-transform: uppercase;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #015198;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 426px) {
+    .component{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 50%;
+    }
+    .main-content{
+        max-width: 1200px;
+        box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+        background-color: #fff;
+        margin: auto;
+        min-height: calc(100vh - 235px);
+        padding-top: 10px;
+      }
+    .wrap-menu-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wrap-menu-item{
+        flex: 33.33%;
+        display: block;
+        text-align: center;
+        display: block;
+        padding: 10px;
+        box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+        background-color: #fff;
+    }
+
+    section{
+        background-image: url('../images/home.jpg');
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
+    }
+    .page-header{
+        font-size: 90px;
+        color: #015198;
+        /* background: linear-gradient(to right,#01215a 0,#ff4a7d 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+        margin-top: 0px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    section{
+        background-image: url('../images/home.jpg');
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+}
