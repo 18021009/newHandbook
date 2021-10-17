@@ -7,36 +7,45 @@
 
 .info-title {
     font-family: Opensans-bold;
-  }
-  .info-content {
+}
+
+.info-content {
     padding-left: 50px;
-  }
-  .info-contact {
+}
+
+.info-contact {
     color: #005095;
-  }
-  .home-body.body-container {
+}
+
+.home-body.body-container {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-  
+}
 
+.right {
+    display: none;
+}
 
-@media only screen and (min-width: 426px) {
-    .main-content{
+@media only screen and (min-width: 769px) {
+    .main-content {
         box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
         background-color: #fff;
-        max-width: 600px;
+        max-width: 1024px;
+        padding: 30px 10px 30px 10px;
         margin: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .left {
+        text-align: align;
+    }
+    .right {
+        display: inline-block;
+    }
+    img {
+        width: 100%;
+    }
+    .info-content {
+        padding-left: 30px;
     }
 }
-
-@media only screen and (min-width: 1025px) {
-  .main-content{
-      box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
-      background-color: #fff;
-      max-width: 1024px;
-      padding: 30px;
-      margin: auto;
-  }
-}
-
