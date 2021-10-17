@@ -6,7 +6,7 @@
     text-align: justify;
     min-height: calc(100vh - 312px);
     display: grid;
-    grid-template-columns: 50% 50% ;
+    grid-template-columns: auto auto ;
 }
 
 .left_column{
@@ -43,6 +43,7 @@ a{
         margin: auto;
         min-height: calc(100vh - 235px);
         padding-top: 10px;
+        grid-template-columns: auto auto ;
     }
 
     .content{
@@ -60,7 +61,7 @@ a{
         text-align: justify;
         min-height: calc(100vh - 312px);
         display: grid;
-        grid-template-columns: 30% 70% ;
+        grid-template-columns: auto auto ;
     }
 }
 
